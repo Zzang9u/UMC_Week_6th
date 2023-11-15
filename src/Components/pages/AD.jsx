@@ -18,7 +18,7 @@ export function Ad(props){
 export default class Page extends React.Component {
     constructor(props) {
       super(props);
-      this.state = { click: true };
+      this.state = { click: false };
       this.handleToggleClick = this.handleToggleClick.bind(this);
     }
   
